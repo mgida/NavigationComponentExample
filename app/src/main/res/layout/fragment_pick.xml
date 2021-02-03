@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".PickFragment">
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:ems="10"
+            android:hint="@string/enterName"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/button_firstFrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="@string/firstFrag" />
+
+        <Button
+            android:id="@+id/button_secondFrag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/secondFrag" />
+    </LinearLayout>
+</layout>

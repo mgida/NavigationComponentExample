@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">NavigationComponentExample</string>
+    <string name="userFirstFrag">Hello first fragment</string>
+    <string name="userSecFrag">Hello second fragment</string>
+    <string name="aboutFrag">AboutFragment</string>
+    <string name="home">Home</string>
+    <string name="start">Start</string>
+    <string name="enterName">enter your name</string>
+    <string name="firstFrag">First Fragment</string>
+    <string name="secondFrag">Second Fragment</string>
+    <string name="about">About</string>
+    <string name="pick_another">pick another</string>
+</resources>
